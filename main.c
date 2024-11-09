@@ -4,7 +4,7 @@
 (C)2024 Tim Jacobs
 
 for efficient storage of 16bit integers
-in matrix form
+in matrix form in the simpel and stupid way
 */
 
 #include <stdio.h>
@@ -84,6 +84,8 @@ void freeMatrix(Matrix* mat)
 
 /*
     testmodul only for testing under development
+    
+    use can be dangerous!!!!!
 */
 int main() 
 {
